@@ -4,6 +4,7 @@
     "module": "commonjs",    // Gerar com formato commonjs para os navagadore conseguir entender usar os Import e Export
     "target": "ES2019",      // Versão EcmaScript que sera buildado 
     "esModuleInterop": true, // Fazer conversao para os modulos que utilizam Import e Export
-    "allowJs": true          // Se existir arquivos do tipo .js em nosso projeto ele sera incluido também na dist
+    "allowJs": true,         // Se existir arquivos do tipo .js em nosso projeto ele sera incluido também na dist
+    "strictNullChecks": true
   }
 }
