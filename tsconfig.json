@@ -5,6 +5,6 @@
     "target": "ES2019",      // Versão EcmaScript que sera buildado 
     "esModuleInterop": true, // Fazer conversao para os modulos que utilizam Import e Export
     "allowJs": true,         // Se existir arquivos do tipo .js em nosso projeto ele sera incluido também na dist
-    "strictNullChecks": true
+    "strictNullChecks": false
   }
 }
